@@ -1,0 +1,24 @@
+name: flame_tiled_example
+description: Simple project to showcase the usage of flame_tiled
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  tuple: ^2.0.2
+  flame: ^1.10.1
+  flame_tiled: ^1.15.1
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flame_lint: ^1.1.1
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/tiles/map1.tmx
+    - assets/images/atlas.png
+    - assets/images/background.webp
+    - assets/images/unit_infantry_germany.png

@@ -1,0 +1,57 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "map1.tmx",
+    "expandedProjectPaths": [
+        "."
+    ],
+    "fileStates": {
+        "": {
+            "scaleInDock": 1
+        },
+        "map1.tmx": {
+            "scale": 0.3998,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 955.4777388694349,
+                "y": 477.73886943471746
+            }
+        },
+        "map1.tmx#Background": {
+            "dynamicWrapping": true,
+            "scaleInEditor": 1
+        },
+        "map1.tmx#hhh": {
+            "dynamicWrapping": true,
+            "scaleInEditor": 1
+        },
+        "map1.tmx#jjj": {
+            "dynamicWrapping": true
+        },
+        "map1.tmx#terrain": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1
+        }
+    },
+    "last.imagePath": "/Users/aleksandr_shevelev/Prog/My/Flutter/prototypes/hex_tiled/map",
+    "map.height": 30,
+    "map.lastUsedFormat": "tmx",
+    "map.orientation": "4",
+    "map.tileHeight": 64,
+    "map.tileWidth": 64,
+    "openFiles": [
+        "map1.tmx"
+    ],
+    "project": "test_maps.tiled-project",
+    "recentFiles": [
+        "map1.tmx"
+    ],
+    "tileset.embedInMap": true,
+    "tileset.tileSize": {
+        "height": 64,
+        "width": 64
+    },
+    "tileset.type": 1
+}
