@@ -18,7 +18,7 @@ dev_dependencies:
 flutter:
   uses-material-design: true
   assets:
-    - assets/tiles/map1.tmx
-    - assets/images/atlas.png
+    - assets/tiles/map3.tmx
+    - assets/images/atlas3.png
     - assets/images/background.webp
     - assets/images/unit_infantry_germany.png

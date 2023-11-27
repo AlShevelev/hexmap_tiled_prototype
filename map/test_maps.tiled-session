@@ -3,7 +3,7 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "map1.tmx",
+    "activeFile": "map3.tmx",
     "expandedProjectPaths": [
         "."
     ],
@@ -11,12 +11,15 @@
         "": {
             "scaleInDock": 1
         },
+        "#atlas3": {
+            "scaleInDock": 1
+        },
         "map1.tmx": {
-            "scale": 0.3998,
+            "scale": 0.33,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 957.9789894947476,
-                "y": 477.73886943471746
+                "x": 978.7878787878788,
+                "y": 712.1212121212121
             }
         },
         "map1.tmx#Background": {
@@ -33,25 +36,51 @@
         "map1.tmx#terrain": {
             "dynamicWrapping": false,
             "scaleInDock": 1
+        },
+        "map2.tmx": {
+            "scale": 0.33,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 978.7878787878788,
+                "y": 821.2121212121211
+            }
+        },
+        "map2.tmx#atlas2": {
+            "scaleInDock": 1
+        },
+        "map3.tmx": {
+            "scale": 0.33,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 966.6666666666665,
+                "y": 678.7878787878788
+            }
+        },
+        "map3.tmx#atlas3": {
+            "scaleInDock": 1
         }
     },
-    "last.imagePath": "/Users/aleksandr_shevelev/Prog/My/Flutter/prototypes/hex_tiled/map",
+    "last.imagePath": "/Users/aleksandr_shevelev/Prog/My/Flutter/prototypes/hexmap_tiled_prototype/map",
     "map.height": 30,
     "map.lastUsedFormat": "tmx",
     "map.orientation": "4",
-    "map.tileHeight": 64,
+    "map.tileHeight": 74,
     "map.tileWidth": 64,
     "openFiles": [
-        "map1.tmx"
+        "map1.tmx",
+        "map2.tmx",
+        "map3.tmx"
     ],
     "project": "test_maps.tiled-project",
     "recentFiles": [
-        "map1.tmx"
+        "map1.tmx",
+        "map2.tmx",
+        "map3.tmx"
     ],
     "tileset.embedInMap": true,
     "tileset.tileSize": {
-        "height": 64,
+        "height": 74,
         "width": 64
     },
-    "tileset.type": 1
+    "tileset.type": 0
 }

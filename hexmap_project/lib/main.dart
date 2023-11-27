@@ -47,8 +47,8 @@ class TiledGame extends FlameGame with ScaleDetector, TapDetector {
       ..anchor = Anchor.topLeft;
 
     mapComponent = await TiledComponent.load(
-      'map1.tmx',
-      Vector2.all(64), // Should be as same as a size of tile in the Tiled
+      'map3.tmx',
+      Vector2(64, 73), // Should be as same as a size of tile in the Tiled
     );
     world.add(mapComponent);
   }
@@ -79,15 +79,14 @@ class TiledGame extends FlameGame with ScaleDetector, TapDetector {
 
   @override
   Future<void> onTapUp(TapUpInfo info) async {
-    //final tappedCel = _getTappedCell(info);
+    final tappedCel = _getTappedCell(info);
 
-    final tappedCel = estimateCallTime<TileInfo>(
-      () {
-        return _getTappedCell(info);
-      },
-    );
+    // final tappedCel = estimateCallTime<TileInfo>(() {
+    //     return _getTappedCell(info);
+    //   },
+    // );
 
-    developer.log('cell: ${tappedCel.row}; ${tappedCel.col}');
+    // developer.log('cell: ${tappedCel.row}; ${tappedCel.col}');
 
     final spriteComponent = SpriteComponent(
       size: Vector2.all(64.0),

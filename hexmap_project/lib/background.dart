@@ -6,7 +6,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
 class Background extends StatefulWidget {
-  const Background({Key? key, required this.child}) : super(key: key);
+  const Background({required this.child, super.key});
 
   final Widget child;
 
